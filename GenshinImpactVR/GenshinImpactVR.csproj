@@ -8,28 +8,28 @@
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>E:\Grasscutter\GenshinImpact_3.4.0\MelonLoader\Il2CppAssemblies\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>..\..\grasscutter\GenshinImpact_3.4.0\MelonLoader\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppInterop.Runtime">
-      <HintPath>E:\Grasscutter\GenshinImpact_3.4.0\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+      <HintPath>..\..\grasscutter\GenshinImpact_3.4.0\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Il2Cppmscorlib">
-      <HintPath>E:\Grasscutter\GenshinImpact_3.4.0\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+      <HintPath>..\..\grasscutter\GenshinImpact_3.4.0\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
     </Reference>
     <Reference Include="MelonLoader">
-      <HintPath>E:\Grasscutter\GenshinImpact_3.4.0\MelonLoader\net6\MelonLoader.dll</HintPath>
+      <HintPath>..\..\grasscutter\GenshinImpact_3.4.0\MelonLoader\net6\MelonLoader.dll</HintPath>
     </Reference>
     <Reference Include="UnhollowerBaseLib">
-      <HintPath>E:\Grasscutter\GenshinImpact_3.4.0\Mods\UnhollowerBaseLib.dll</HintPath>
+      <HintPath>..\..\grasscutter\GenshinImpact_3.4.0\Mods\UnhollowerBaseLib.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>E:\Grasscutter\GenshinImpact_3.4.0\MelonLoader\Il2CppAssemblies\UnityEngine.dll</HintPath>
+      <HintPath>..\..\grasscutter\GenshinImpact_3.4.0\MelonLoader\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>E:\Grasscutter\GenshinImpact_3.4.0\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\grasscutter\GenshinImpact_3.4.0\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UniverseLib.IL2CPP.Interop">
-      <HintPath>E:\Grasscutter\GenshinImpact_3.4.0\UserLibs\UniverseLib.IL2CPP.Interop.dll</HintPath>
+      <HintPath>..\..\grasscutter\GenshinImpact_3.4.0\Mods\UniverseLib.IL2CPP.Interop.dll</HintPath>
     </Reference>
   </ItemGroup>
 
