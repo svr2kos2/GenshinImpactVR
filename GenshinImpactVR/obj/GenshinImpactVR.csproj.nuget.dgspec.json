@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\GenshinImpactVR\\GenshinImpactVR\\GenshinImpactVR.csproj": {}
+    "C:\\Users\\svr2k\\source\\repos\\GenshinImpactVR\\GenshinImpactVR\\GenshinImpactVR.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\GenshinImpactVR\\GenshinImpactVR\\GenshinImpactVR.csproj": {
+    "C:\\Users\\svr2k\\source\\repos\\GenshinImpactVR\\GenshinImpactVR\\GenshinImpactVR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\GenshinImpactVR\\GenshinImpactVR\\GenshinImpactVR.csproj",
+        "projectUniqueName": "C:\\Users\\svr2k\\source\\repos\\GenshinImpactVR\\GenshinImpactVR\\GenshinImpactVR.csproj",
         "projectName": "GenshinImpactVR",
-        "projectPath": "C:\\workspace\\GenshinImpactVR\\GenshinImpactVR\\GenshinImpactVR.csproj",
+        "projectPath": "C:\\Users\\svr2k\\source\\repos\\GenshinImpactVR\\GenshinImpactVR\\GenshinImpactVR.csproj",
         "packagesPath": "C:\\Users\\svr2k\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\GenshinImpactVR\\GenshinImpactVR\\obj\\",
+        "outputPath": "C:\\Users\\svr2k\\source\\repos\\GenshinImpactVR\\GenshinImpactVR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\svr2k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

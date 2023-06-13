@@ -3,7 +3,6 @@ C:\Users\svr2k\source\repos\GenshinImpactVR\GenshinImpactVR\bin\Release\net6.0\G
 C:\Users\svr2k\source\repos\GenshinImpactVR\GenshinImpactVR\bin\Release\net6.0\GenshinImpactVR.pdb
 C:\Users\svr2k\source\repos\GenshinImpactVR\GenshinImpactVR\bin\Release\net6.0\Il2Cppmscorlib.dll
 C:\Users\svr2k\source\repos\GenshinImpactVR\GenshinImpactVR\bin\Release\net6.0\MelonLoader.dll
-C:\Users\svr2k\source\repos\GenshinImpactVR\GenshinImpactVR\bin\Release\net6.0\UnhollowerBaseLib.dll
 C:\Users\svr2k\source\repos\GenshinImpactVR\GenshinImpactVR\bin\Release\net6.0\UnityEngine.CoreModule.dll
 C:\Users\svr2k\source\repos\GenshinImpactVR\GenshinImpactVR\bin\Release\net6.0\UnityEngine.dll
 C:\Users\svr2k\source\repos\GenshinImpactVR\GenshinImpactVR\bin\Release\net6.0\0Harmony.dll
@@ -158,3 +157,4 @@ C:\workspace\GenshinImpactVR\GenshinImpactVR\obj\Release\net6.0\GenshinImpactVR.
 C:\workspace\GenshinImpactVR\GenshinImpactVR\obj\Release\net6.0\refint\GenshinImpactVR.dll
 C:\workspace\GenshinImpactVR\GenshinImpactVR\obj\Release\net6.0\GenshinImpactVR.pdb
 C:\workspace\GenshinImpactVR\GenshinImpactVR\obj\Release\net6.0\ref\GenshinImpactVR.dll
+C:\Users\svr2k\source\repos\GenshinImpactVR\GenshinImpactVR\bin\Release\net6.0\UnityEngine.InputModule.dll
