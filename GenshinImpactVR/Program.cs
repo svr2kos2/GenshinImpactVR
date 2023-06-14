@@ -52,7 +52,15 @@ namespace GenshinImpactVR {
             if (cam == null)
                 return;
 
-            if(Input.GetKey(KeyCode.UpArrow)) {
+            cam.projectionMatrix = new Matrix4x4(
+                new Vector4(1.33319f, 0, 0, 0),
+                new Vector4(0, 0.8391f, 0, 0),
+                new Vector4(0, 0, -1.0006f, -1f),
+                new Vector4(0, 0, -0.60018f, 0)
+            );
+
+
+            if (Input.GetKey(KeyCode.UpArrow)) {
 
             }
 

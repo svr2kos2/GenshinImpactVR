@@ -42,7 +42,7 @@ namespace GenshinImpactVR {
             rawImage.GetComponent<UnityEngine.UI.RawImage>().texture = rt;
             GameObject.Destroy(cam.GetComponent<Cinemachine.CinemachineExternalCamera>());
             GameObject.Destroy(cam.GetComponent<Cinemachine.CinemachineBrain>());
-            cam.fieldOfView = 90f;
+            cam.nearClipPlane = 0.000001f;
             return cam;
         }
     }
