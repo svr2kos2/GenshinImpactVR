@@ -17,7 +17,7 @@ namespace GenshinImpactVR {
                 }
             }
             Camera.main.GetComponent<Cinemachine.CinemachineExternalCamera>().enabled = false;
-            var canvas = GameObject.Find("Pages").transform.parent.gameObject;
+            
             var player = UnityEngine.Object.Instantiate(Camera.main.gameObject);
             //player.transform.SetParent(Camera.main.transform);
             player.name = "VRPlayer";
@@ -25,25 +25,32 @@ namespace GenshinImpactVR {
             player.transform.rotation = Camera.main.transform.rotation;
             var cam = player.GetComponent<Camera>();
 
-            var rawImage = new GameObject("RawImage");
-            rawImage.transform.SetParent(canvas.transform);
-            rawImage.AddComponent<UnityEngine.UI.RawImage>();
-            var rawImageRectTransform = rawImage.GetComponent<RectTransform>();
-            rawImageRectTransform.localScale = Vector3.one;
-            rawImageRectTransform.pivot = Vector2.zero;
-            rawImageRectTransform.anchorMin = Vector2.zero;
-            rawImageRectTransform.anchorMax = Vector2.zero;
-            rawImageRectTransform.sizeDelta = new Vector2(cam.pixelWidth / 2, cam.pixelHeight / 2);
+            
 
             var rt = new RenderTexture(cam.pixelWidth, cam.pixelHeight, 24, RenderTextureFormat.RGB111110Float);
             var camPost = cam.gameObject.GetComponent<UnityEngine.Rendering.PostProcessing.PostProcessLayer>();
             camPost.finalTarget = rt;
             camPost.isExtraCamera = true;
-            rawImage.GetComponent<UnityEngine.UI.RawImage>().texture = rt;
+            CreateRawImage().GetComponent<UnityEngine.UI.RawImage>().texture = rt;
             GameObject.Destroy(cam.GetComponent<Cinemachine.CinemachineExternalCamera>());
             GameObject.Destroy(cam.GetComponent<Cinemachine.CinemachineBrain>());
-            cam.nearClipPlane = 0.000001f;
+            cam.fieldOfView = 90f;
             return cam;
         }
+
+        public static UnityEngine.UI.RawImage CreateRawImage() {
+            var canvas = GameObject.Find("Pages").transform.parent.gameObject;
+            var rawImage = new GameObject("RawImage");
+            rawImage.transform.SetParent(canvas.transform);
+            var res = rawImage.AddComponent<UnityEngine.UI.RawImage>();
+            var rawImageRectTransform = rawImage.GetComponent<RectTransform>();
+            rawImageRectTransform.localScale = Vector3.one;
+            rawImageRectTransform.pivot = Vector2.zero;
+            rawImageRectTransform.anchorMin = Vector2.zero;
+            rawImageRectTransform.anchorMax = Vector2.zero;
+            rawImageRectTransform.sizeDelta = new Vector2(Camera.main.pixelWidth / 2, Camera.main.pixelHeight / 2);
+            return res;
+        }
+
     }
 }
